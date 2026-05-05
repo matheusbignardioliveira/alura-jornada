@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>A Jornada no Templo Perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=600" alt="Floresta densa">
+            <p>Você está na entrada de uma floresta antiga. Dizem que um templo escondido guarda um tesouro. Por onde começar?</p>
+            <button class="btn-proximo" data-proximo="1">Seguir a trilha de flores</button>
+            <button class="btn-proximo" data-proximo="2">Entrar na caverna escura</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>As flores levam você a um riacho cristalino. Você encontra um barco velho.</p>
+            <button class="btn-proximo" data-proximo="3">Atravessar o rio</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Dentro da caverna, você encontra inscrições antigas que brilham na parede.</p>
+            <button class="btn-proximo" data-proximo="4">Tocar nas inscrições</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Parabéns! O barco te levou direto para a entrada do Templo Perdido!</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar Aventura</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
